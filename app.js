@@ -4,8 +4,7 @@ let numeroLimitePocibilidades = numeroLimite / 2
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
-exibirTextoNaTela('h1', 'Jogo do número secreto');
-exibirTextoNaTela('p', `Escolha um número entre 1 e ${numeroLimite}`);
+exibirMensagemInicial()
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
